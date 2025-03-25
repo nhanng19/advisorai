@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern> helpme </pattern>
+	    <template>I am going to ask you a series of questions to help you choose a career.
+	     <button>
+	         <text>Start</text>
+	         <postback>start</postback>
+         </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>START</pattern>
+	    <template>Do you enjoy math?
+	    <button>
+	        <text>Yes</text>
+	        <postback>question 2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>question 3</postback>
+        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>QUESTION 2</pattern>
+	    <template>Do you enjoy programming?
+	    <button>
+	        <text>Yes</text>
+	        <postback>programming</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>question 3</postback>
+        </button>
+        </template>
+	</category>
+	<category>
+	    <pattern>QUESTION 3</pattern>
+	    <template>Do you enjoy automation or working with data?
+	    <button>
+	        <text>Automation</text>
+	        <postback>MLENGINEER1</postback>
+        </button>
+        <button>
+            <text>Data</text>
+            <postback>data</postback>
+        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>PROGRAMMING</pattern>
+	    <template>Do you prefer programming or do you prefer working with data?
+	    <button>
+	        <text>Programming</text>
+	        <postback>programming1</postback>
+	    </button>
+	    <button>
+	        <text>Data</text>
+	        <postback>data</postback>
+        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>PROGRAMMING1</pattern>
+	    <template>What language are you most comfortable with, HTML, Python, Java, or S.Q.L?
+	    <button>
+	        <text>HTML</text>
+	        <postback>web1</postback>
+        </button>
+	    <button>
+	        <text>Python</text>
+	        <postback>programming2</postback>
+        </button>
+        <button>
+            <text>Java</text>
+            <postback>programming3</postback>
+        </button>
+        <button>
+            <text>S.Q.L</text>
+            <postback>data</postback>
+        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>PROGRAMMING2</pattern>
+	    <template>Do you enjoy working with software or data?
+	    <button>
+	        <text>Software</text>
+	        <postback>programming3</postback>
+        </button>
+        <button>
+            <text>Data</text>
+            <postback>datas1</postback>
+        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>WEB1</pattern>
+	    <template>You have been matched with Web Developer!<br></br> Click "learn more" for more information.
+	    <button>
+	        <text>Learn More</text>
+	        <postback>Web</postback>
+        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>PROGRAMMING3</pattern>
+	    <template>You have been matched with Software Developer! <br></br>Click "learn more" for more information.
+	    <button>
+	        <text>Learn More</text>
+	        <postback>Software</postback>
+        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>DATA</pattern>
+	    <template>Do you prefer analyzing and finding new ways to collect data or maintaining databases? 
+	    <button>
+	        <text>Analyze data</text>
+	        <postback>datas1</postback>
+        </button>
+        <button>
+            <text>Maintaining Databases</text>
+            <postback>database1</postback>
+        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>DATABASE1</pattern>
+	    <template>You have been matched with Database Administrator! <br></br>Click "learn more" for more information.
+	    <button>
+	        <text>Learn more</text>
+	        <postback>database</postback>
+        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>DATAS1</pattern>
+	    <template>You have been matched with Data Scientist!<br></br> Click "learn more" for more information
+	    <button>
+	        <text>Learn more</text>
+	        <postback>datas</postback>
+        </button>
+	    </template>
+	</category>	
+		<category>
+	    <pattern>MLENGINEER1</pattern>
+	    <template>You have been matched with Machine Learning Engineer!<br></br> Click "learn more" for more information.
+	    <button>
+	        <text>Learn more</text>
+	        <postback>mlengineer</postback>
+        </button>
+	    </template>
+	</category>
+</aiml>

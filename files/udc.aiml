@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>HI</pattern>
+    <template>Welcome to the computing career advisor. I can help you learn more about a career or I can help you decide based on your strengths and preferences. What do you need help with?
+        <button>
+            <text>Learn more</text>
+            <postback>Learn more</postback>
+        </button>
+        <button>
+            <text>Help me choose</text>
+            <postback>helpme</postback>
+        </button>
+    </template>
+  </category>
+ 
+  <category>
+    <pattern>*</pattern>
+    <template>I do not recongnize that answer. Please type "Help" to see commands</template>
+  </category>
+  
+  <category>
+      <pattern>HELP</pattern>
+      <template> Help Menu
+      <br></br><br></br>
+      To start the bot type "Hi".
+      </template>
+  </category>
+  
+  <category>
+      <pattern>END</pattern>
+      <template>We're sad to see you leave!</template>
+  </category>
+</aiml>

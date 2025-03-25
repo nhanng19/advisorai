@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+ <category>
+      <pattern>DATABASE</pattern>
+      <template> Database administrators are responsible for the management and maintenance of company databases. Database administrators' duties include maintaining adherence to a data management policy.
+      <button>
+	        <text>Learn more!</text>
+	        <url>https://www.springboard.com/blog/data-analytics/how-to-become-database-administrator/</url>
+        </button>
+      <button>
+          <text>See other careers</text>
+          <postback>Learn More</postback>
+      </button>
+      </template>
+  </category>
+</aiml>

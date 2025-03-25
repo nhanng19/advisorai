@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+      <pattern>Software</pattern>
+      <template>Software Developers conceive of, design, and build computer programs. Some develop new applications for mobile or desktop use, while others build underlying operating systems.
+      <button>
+          <text>Learn more!</text>
+          <url>https://www.springboard.com/blog/software-engineering/how-to-become-software-engineer/</url>
+      </button>
+      <button>
+          <text>See other careers</text>
+          <postback>Learn more</postback>
+      </button>
+      </template>
+  </category>
+   
+	
+</aiml>
