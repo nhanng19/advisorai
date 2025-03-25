@@ -2,7 +2,7 @@
 <aiml version="2.0">
   <category>
     <pattern>HI</pattern>
-    <template>Welcome to the computing career advisor. I can help you learn more about a career or I can help you decide based on your strengths and preferences. What do you need help with?
+    <template>Hi there! I can either help you learn more about computing jobs or chose a career based on your response and preferences.
         <button>
             <text>Learn more</text>
             <postback>Learn more</postback>
