@@ -2,7 +2,7 @@
 <aiml version="2.0">
  <category>
       <pattern>DATABASE</pattern>
-      <template> Database administrators are responsible for the management and maintenance of company databases. Database administrators' duties include maintaining adherence to a data management policy.
+      <template>A Database Administrator (DBA) is an IT professional who manages and maintains databases, ensuring data integrity, security, and optimal performance. They handle tasks like installation, configuration, backup, recovery, security, and performance tuning. 
       <button>
 	        <text>Learn more!</text>
 	        <url>https://www.springboard.com/blog/data-analytics/how-to-become-database-administrator/</url>

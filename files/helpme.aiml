@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<category>
-	    <pattern> helpme </pattern>
+	    <pattern> help </pattern>
 	    <template>I am going to ask you a series of questions to help you choose a career.
 	     <button>
 	         <text>Start</text>

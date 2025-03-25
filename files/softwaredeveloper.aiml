@@ -2,7 +2,7 @@
 <aiml version="2.0">
     <category>
       <pattern>Software</pattern>
-      <template>Software Developers conceive of, design, and build computer programs. Some develop new applications for mobile or desktop use, while others build underlying operating systems.
+      <template>A software developer designs, builds, tests, and maintains software applications and systems, using programming languages to create and improve software for various industries, from operating systems to mobile apps. 
       <button>
           <text>Learn more!</text>
           <url>https://www.springboard.com/blog/software-engineering/how-to-become-software-engineer/</url>

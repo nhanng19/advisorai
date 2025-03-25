@@ -5,11 +5,11 @@
     <template>Hi there! I can either help you learn more about computing jobs or chose a career based on your response and preferences.
         <button>
             <text>Learn more</text>
-            <postback>Learn more</postback>
+            <postback>Learn</postback>
         </button>
         <button>
             <text>Help me choose</text>
-            <postback>helpme</postback>
+            <postback>help</postback>
         </button>
     </template>
   </category>

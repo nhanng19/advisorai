@@ -2,7 +2,7 @@
 <aiml version="2.0">
   <category>
       <pattern>Web</pattern>
-      <template>Web developers work independently as freelancers or with company teams to create websites.  Web development includes designing sites and producing content, or back-end development, which involves writing code to make website features work.
+      <template>A web developer designs, builds, and maintains websites and web applications, focusing on both the user-facing (front-end) and the server-side (back-end) aspects, often specializing in one or both. 
       <button>
           <text>Learn more!</text>
           <url>https://www.springboard.com/blog/software-engineering/how-to-get-a-job-as-a-web-developer/</url>
